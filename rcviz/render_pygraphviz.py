@@ -36,9 +36,9 @@ def render(digraph_data: Dict[int, node_data], counter: int, filename: str):
                 str(child_id),
                 label=label,
                 color=color,
-                fontsize=8,
+                fontsize=10,
                 labelfontsize=8,
-                fontcolor="#999999",
+                fontcolor="#000000",
             )
 
         # order edges l to r
